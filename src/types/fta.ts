@@ -1,3 +1,10 @@
+/*
+ * Copyright (c) 2026 masakinakai3
+ * 
+ * This software is released under the MIT License.
+ * https://opensource.org/licenses/MIT
+ */
+
 export type FTANodeType = 'event' | 'gate';
 
 export type FTAEventType = 'top_event' | 'basic_event' | 'intermediate_event' | 'undeveloped_event' | 'text_box';

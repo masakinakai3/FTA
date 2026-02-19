@@ -1,7 +1,13 @@
 {
   "name": "fta",
+  "author": "masakinakai3",
   "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/masakinakai3/FTA"
+  },
   "version": "0.0.0",
+  "license": "MIT",
   "type": "module",
   "scripts": {
     "dev": "vite",

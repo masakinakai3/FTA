@@ -1,4 +1,9 @@
-/* Cleaned up App.css */
+/*
+ * Copyright (c) 2026 masakinakai3
+ * 
+ * This software is released under the MIT License.
+ * https://opensource.org/licenses/MIT
+ */
 .canvas-bg {
     background-color: var(--bg-color);
     background-image: radial-gradient(var(--grid-color) 1px, transparent 1px);

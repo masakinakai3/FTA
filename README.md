@@ -69,8 +69,8 @@ src/
 
 1.  **リポジトリのクローン**:
     ```bash
-    git clone <repository-url>
-    cd fta
+    git clone https://github.com/masakinakai3/FTA.git
+    cd FTA
     ```
 
 2.  **依存関係のインストール**:
@@ -146,4 +146,12 @@ interface FTAEdge {
   targetId: string;
 }
 ```
+
+---
+
+## 📜 ライセンス
+
+本プロジェクトは [MIT License](LICENSE) の下で公開されています。
+詳細は `LICENSE` ファイルをご確認ください。
+
 

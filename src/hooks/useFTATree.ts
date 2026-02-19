@@ -1,3 +1,10 @@
+/*
+ * Copyright (c) 2026 masakinakai3
+ * 
+ * This software is released under the MIT License.
+ * https://opensource.org/licenses/MIT
+ */
+
 import { useState, useCallback } from 'react';
 import type { FTANode, FTAEdge, FTANodeType, FTAEventType, FTAGateType } from '../types/fta';
 import { v4 as uuidv4 } from 'uuid';

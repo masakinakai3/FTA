@@ -1,3 +1,10 @@
+/*
+ * Copyright (c) 2026 masakinakai3
+ * 
+ * This software is released under the MIT License.
+ * https://opensource.org/licenses/MIT
+ */
+
 import React from 'react';
 import type { FTANode } from '../types/fta';
 import { getGatePath, getEventPath } from '../utils/shapes';
