@@ -1,0 +1,68 @@
+:root {
+  /* Dark Mode Palette */
+  --bg-color: #0f172a;
+  /* Slate 900 */
+  --text-color: #e2e8f0;
+  /* Slate 200 */
+  --panel-bg: #1e293b;
+  /* Slate 800 */
+  --panel-border: #334155;
+  /* Slate 700 */
+  --primary-color: #3b82f6;
+  /* Blue 500 */
+  --primary-hover: #60a5fa;
+  /* Blue 400 */
+  --node-bg: #1e293b;
+  --node-border: #475569;
+  /* Slate 600 */
+  --node-border-selected: #3b82f6;
+  --line-color: #94a3b8;
+  /* Slate 400 - Lighter for dark mode */
+  --grid-color: rgba(255, 255, 255, 0.1);
+  --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.3);
+  --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.5), 0 2px 4px -2px rgb(0 0 0 / 0.5);
+  --input-bg: #020617;
+  /* Slate 950 */
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  color: var(--text-color);
+  background-color: var(--bg-color);
+  -webkit-font-smoothing: antialiased;
+}
+
+button {
+  font-family: inherit;
+  background-color: var(--panel-bg);
+  color: var(--text-color);
+  border: 1px solid var(--panel-border);
+  padding: 6px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+button:hover {
+  background-color: var(--panel-border);
+  border-color: var(--text-color);
+}
+
+button:active {
+  transform: translateY(1px);
+}
+
+input,
+textarea {
+  background-color: var(--input-bg);
+  color: var(--text-color);
+  border: 1px solid var(--panel-border);
+  border-radius: 4px;
+}
+
+input:focus,
+textarea:focus {
+  outline: 2px solid var(--primary-color);
+  border-color: transparent;
+}

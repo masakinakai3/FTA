@@ -1,0 +1,6 @@
+/* Cleaned up App.css */
+.canvas-bg {
+    background-color: var(--bg-color);
+    background-image: radial-gradient(var(--grid-color) 1px, transparent 1px);
+    background-size: 20px 20px;
+}
